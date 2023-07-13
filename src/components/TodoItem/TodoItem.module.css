@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.compleate {
+    text-decoration: line-through;
+}
