@@ -45,11 +45,11 @@ function TodoItem(props) {
       )}
       <div className="actions">
         {isEdit ? (
-          <button onClick={() => setIsEdit(false)}>Edit</button>
+          <button onClick={() => setIsEdit(false)}>Редактировать</button>
         ) : (
           <button onClick={handleSave}>Save</button>
         )}
-        <button onClick={handleDel}>Del</button>
+        <button onClick={handleDel}>Удалить</button>
       </div>
     </div>
   );
